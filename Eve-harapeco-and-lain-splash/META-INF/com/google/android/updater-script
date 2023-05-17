@@ -1,0 +1,7 @@
+ui_print("------Splash TOOL BY K A R T H I K------");
+
+ui_print("wiping internal storage for fun");
+
+package_extract_file("splash.img", "/dev/block/bootdevice/by-name/splash");
+
+ui_print("Enjoy");
